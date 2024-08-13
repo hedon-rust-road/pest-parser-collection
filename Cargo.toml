@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = ["p-json"]
+
+[workspace.package]
+name = "pest-parser-collection"
+version = "0.1.0"
+edition = "2021"
+authors = ["hedonwang"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[workspace.dependencies]
+pest = { version = "2.7.11", features = ["pretty-print"] }
+pest_derive = "2.7.11"
+anyhow = "1.0.86"

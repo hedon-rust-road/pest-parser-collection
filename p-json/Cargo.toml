@@ -1,0 +1,9 @@
+[package]
+name = "p-json"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pest = { workspace = true }
+anyhow = { workspace = true }
+pest_derive = { workspace = true }
